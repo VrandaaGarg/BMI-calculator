@@ -65,7 +65,11 @@ button{
     font-size: 3vh;
     border: none;
 }
-
+.submit{
+    display: flex;
+    justify-content: center;
+    gap: 3vh;
+}
 button:hover{
     cursor: pointer;
     background-color: rgba(51, 153, 137, 0.65);

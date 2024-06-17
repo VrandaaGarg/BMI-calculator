@@ -3,7 +3,8 @@ let height=document.querySelector(".height")
 let btn=document.querySelector(".submitBtn");
 let BMI=document.querySelector(".BMI");
 let msg=document.querySelector(".msg");
-let emoji=document.querySelector(".emoji")
+let emoji=document.querySelector(".emoji");
+let resetBtn=document.querySelector(".resetBtn")
 
 
 const bmiCalculation =(weightValue,heightValue)=>{
@@ -46,4 +47,12 @@ btn.addEventListener("click",()=>{
        
     }
     
+})
+
+resetBtn.addEventListener("click",()=>{
+    weight.value="";
+    height.value="";
+    msg.innerText="lets check whether you are healthy or not.";
+    emoji.innerHTML="&#128512;";
+    BMI.innerText="0.00";
 })
