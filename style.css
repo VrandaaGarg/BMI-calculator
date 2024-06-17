@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(43, 44, 40);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 250, 251);
+}
+
+h1{
+    color: black;
+    font-size: 5vh;
+    background-color: rgb(51, 153, 137);
+    border-radius: 2vh;
+    line-height: 8vh;
+}
+.BMIcal{
+    text-align: center;
+    font-size: 4vh;
+    border-radius: 4vh;
+    box-shadow: rgba(51, 153, 137, 0.95) 0px 5px 15px;
+    margin: 6vh;
+    padding: 2vh;
+    background-color: rgb(14, 21, 21);
+    width:70vh;
+}
+
+@media(max-width:4140px){
+
+    .BMIcal{
+        font-size: 3vh;
+    }
+}
+
+form{
+    padding:3vh 0 1vh 0;
+    line-height:5.6vh;
+}
+input{
+    height: 4.5vh;
+    width:240px;
+    text-align: center;
+    border: none;
+    border-radius: 1vh;
+    margin-bottom: 2vh;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+
+button{
+    background-color: rgb(51, 153, 137);
+    color: black;
+    padding: 1vh;
+    margin:0.8vh 0 2vh 0;
+    border-radius: 1vh;
+    font-size: 3vh;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(51, 153, 137, 0.65);
+    transform: scale(1.25);
+    transition: 0.1s;
+    color: rgb(255, 250, 251);
+}
+
+.BMI{
+    font-size: 7vh;
+}
+
+.reaction{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 16vh;
+}
+
+
+.msgContainer{
+    font-size: 3.6vh;
+    margin:2vh 0 2vh 0;
+}
+
+.emoji{
+    font-size: 13vh;
+}
