@@ -12,6 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     color: rgb(255, 250, 251);
+    margin-bottom: 3vh;
 }
 
 h1{
@@ -95,7 +96,7 @@ button:hover{
 .FYQs{
     display: flex;
     justify-content: center;
-    padding: 10vh;
+    padding: 4vh;
 }
 
 .questions{
