@@ -32,10 +32,25 @@ h1{
     width:70vh;
 }
 
-@media(max-width:4140px){
+@media(max-width:414px){
 
     .BMIcal{
         font-size: 3vh;
+    }
+    h1{
+        font-size: 3.5vh;
+    }
+    button{
+        font-size: 2vh;
+    }
+    .BMI{
+        font-size: 5vh;
+    }
+    .msgContainer{
+        font-size: 2.6vh;
+    }
+    .FYQques{
+        font-size: 2.5vh;
     }
 }
 
@@ -132,17 +147,6 @@ h3{
     outline:3px solid rgb(51, 153, 137) ;
     border-radius: 1vh;
 }
-
-/* .ans01{
-    display: none;
-}
-
-.ans02{
-    display: none;
-}
-.ans03{
-    display: none;
-} */
 
 .hide{
     display: none;
