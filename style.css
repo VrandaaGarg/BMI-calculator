@@ -32,28 +32,6 @@ h1{
     width:70vh;
 }
 
-@media(max-width:414px){
-
-    .BMIcal{
-        font-size: 3vh;
-    }
-    h1{
-        font-size: 3.5vh;
-    }
-    button{
-        font-size: 2vh;
-    }
-    .BMI{
-        font-size: 5vh;
-    }
-    .msgContainer{
-        font-size: 2.6vh;
-    }
-    .FYQques{
-        font-size: 2.5vh;
-    }
-}
-
 form{
     padding:3vh 0 1vh 0;
     line-height:5.6vh;
@@ -101,7 +79,7 @@ button:hover{
     position: relative;
     display: flex;
     justify-content: center;
-    height: 16vh;
+    /* height: 16vh; */
 }
 
 
@@ -150,4 +128,35 @@ h3{
 
 .hide{
     display: none;
+}
+
+@media(max-width:414px){
+
+    .BMIcal{
+        font-size: 3vh;
+    }
+    h1{
+        font-size: 3.5vh;
+    }
+    button{
+        font-size: 2vh;
+    }
+    .BMI{
+        font-size: 5vh;
+    }
+    .msgContainer{
+        font-size: 2.6vh;
+    }
+    .FYQques{
+        font-size: 2.5vh;
+    }
+    .emoji{
+        font-size: 7vh;
+    }
+    h3{
+        font-size: 3vh;
+    }
+    input{
+        width: 170px;
+    }
 }
