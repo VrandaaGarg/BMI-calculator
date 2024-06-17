@@ -4,7 +4,14 @@ let btn=document.querySelector(".submitBtn");
 let BMI=document.querySelector(".BMI");
 let msg=document.querySelector(".msg");
 let emoji=document.querySelector(".emoji");
-let resetBtn=document.querySelector(".resetBtn")
+let resetBtn=document.querySelector(".resetBtn");
+let ques01=document.querySelector(".ques01");
+let ques02=document.querySelector(".ques02");
+let ques03=document.querySelector(".ques03");
+let ans01=document.querySelector(".ans01");
+let ans02=document.querySelector(".ans02");
+let ans03=document.querySelector(".ans03");
+let hide=document.querySelector(".hide")
 
 
 const bmiCalculation =(weightValue,heightValue)=>{
@@ -55,4 +62,26 @@ resetBtn.addEventListener("click",()=>{
     msg.innerText="lets check whether you are healthy or not.";
     emoji.innerHTML="&#128512;";
     BMI.innerText="0.00";
+})
+
+ques01.addEventListener("click",()=>{
+    if(ans01.classList.contains("hide")){
+        ans01.classList.remove("hide")
+    }else{
+        ans01.classList.add("hide")
+    }
+})
+ques02.addEventListener("click",()=>{
+    if(ans02.classList.contains("hide")){
+        ans02.classList.remove("hide")
+    }else{
+        ans02.classList.add("hide")
+    }
+})
+ques03.addEventListener("click",()=>{
+    if(ans03.classList.contains("hide")){
+        ans03.classList.remove("hide")
+    }else{
+        ans03.classList.add("hide")
+    }
 })

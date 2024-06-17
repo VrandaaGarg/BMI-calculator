@@ -98,3 +98,52 @@ button:hover{
 .emoji{
     font-size: 13vh;
 }
+
+.FYQs{
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+}
+
+.questions{
+    width: 130vh;
+    background-color: rgb(14, 21, 21);
+    border-radius: 2vh;
+}
+
+h3{
+    background-color:rgb(51, 153, 137) ;
+    border-radius: 2vh;
+    padding:2vh;
+}
+
+.FYQques{
+    color: rgb(255, 250, 251);
+    padding: 2vh;
+    font-size: 3vh;
+    line-height: 5vh;
+}
+.ques{
+    padding: 1vh;
+}
+.ques:hover{
+    cursor: pointer;
+    background-color:rgb(43, 44, 40) ;
+    outline:3px solid rgb(51, 153, 137) ;
+    border-radius: 1vh;
+}
+
+/* .ans01{
+    display: none;
+}
+
+.ans02{
+    display: none;
+}
+.ans03{
+    display: none;
+} */
+
+.hide{
+    display: none;
+}
